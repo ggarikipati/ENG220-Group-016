@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-uploaded_file = st.file_uploader("ratings.csv", type=["csv"])
+uploaded_file = st.file_uploader("Suicide Deaths by County, New Mexico, 2016-2020", type=["csv"])
 
 if uploaded_file is not None:
     # Read the CSV file
